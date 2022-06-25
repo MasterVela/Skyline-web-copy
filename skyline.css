@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
 
-
-/* Blue	rgb(67, 163, 230);
-Dark Blue	rgb(25, 33, 41);
-Text	rgb(0, 0, 0); */
 html, body {
   margin: 0;
   padding: 0;
@@ -136,7 +132,6 @@ h5 {
   height: 180px;
 }
 
-/* modified for flexbox */
  .footer {
   font-size: 1.9em;
   text-align: center;
@@ -163,7 +158,6 @@ h5 {
   text-decoration: none;
 }
 
-/* modified for flexbox */
 .nav-bar-ul {
   width: 1200px;
   margin: 0 auto;
@@ -210,13 +204,11 @@ h5 {
 }
 
 
-/* modified for flexbox */
 #general-information {
   display: flex;
   justify-content: space-evenly;
 }
 
-/* modified for flexbox */
 #general-information .container {
   display: flex;
   flex-direction: column;
@@ -224,7 +216,6 @@ h5 {
   width: 370px;
 }
 
-/* modified for flexbox */
 #structure > div {
   display: flex;
   justify-content: space-between;
@@ -233,14 +224,11 @@ h5 {
 }
 
 
-/* modified for flexbox */
 #team > div {
   display: flex;
   justify-content: space-evenly;
-/*   flex-direction: row; */
 }
 
-/* modified for flexbox */
 #team > div > article {
   display: flex;
   justify-content: center;
@@ -253,7 +241,6 @@ h5 {
   width: 60%;
 }
 
-/* FORM RELATED CLASSES:  */
 .slot-form-container {
   width: 40%;
   margin: 18px auto 0 auto;
